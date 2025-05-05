@@ -1,10 +1,11 @@
 import ChatWidget from './ChatWidget';
 import VoiceChatWidget from './VoiceChatWidget';
+import VoiceChatAgent from './VoiceChatAgent';
 
 function App() {
   return (
     <div className="App">
-      <VoiceChatWidget />
+      <VoiceChatAgent />
     </div>
   );
 }
